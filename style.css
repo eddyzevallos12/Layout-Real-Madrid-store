@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.encabezado{
+    width: 100vw;
+    height: 12.5%;
+    position: relative;
+    object-fit: contain;
+}
+
+.logo-RM img{
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    top: 10px;
+}
+
+.logo-adidas img{
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    top: 10px;
+    left: 45%;
+    mix-blend-mode: color-burn;
+}
+
+.contenido{
+    width: 100vw;
+    height: 75%;
+    position: relative;
+    background-color: rgb(209, 205, 205);
+    display: flex;
+}
+
+.bloque{
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.bloque.primero{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    
+}
+
+.bloque.segundo{
+    background-color: aqua;
+    margin-left: 1rem;
+    width: 80%;
+    height: 100%;
+}
