@@ -17,6 +17,8 @@ html{
     height: 100vh;
 }
 
+/* Encabezado*/
+
 .encabezado{
     width: 100vw;
     height: 12.5%;
@@ -58,6 +60,8 @@ html{
     margin: 0 10px 0;
 }
 
+/* Contenido de la tienda*/
+
 .contenido{
     width: 100vw;
     height: 75%;
@@ -75,7 +79,17 @@ html{
     background-color: black;
     width: 25%;
     height: 100%;
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.card{
+    width: 25rem;
+    height: 10rem;
+    background-color: blue;
 }
 
 .bloque.segundo{
@@ -83,6 +97,16 @@ html{
     margin-left: 1rem;
     width: 75%;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shop{
+    width: 23rem;
+    height: 30rem;
+    background-color: tomato;
 }
 
 /* Footer*/
