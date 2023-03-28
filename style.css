@@ -93,10 +93,11 @@ html{
 }
 
 .bloque.segundo{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     margin-left: 1rem;
     width: 75%;
     height: 100%;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -106,7 +107,48 @@ html{
 .shop{
     width: 23rem;
     height: 30rem;
-    background-color: tomato;
+    background-image: url(./imagenes/wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 21px 4px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 21px 4px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 21px 4px rgba(255, 255, 255, 0.75);
+    justify-content: center;
+    filter: grayscale(10%);
+}
+
+.shop::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(228, 216, 216, 0.3);
+    filter: grayscale(90%);
+    z-index: -1;
+}
+
+.shop p{
+    font-size: 2.5rem;
+    color: rgb(248, 236, 218);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.shop img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
 }
 
 /* Footer*/
