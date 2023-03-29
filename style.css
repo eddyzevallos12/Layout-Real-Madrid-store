@@ -89,7 +89,28 @@ html{
 .card{
     width: 25rem;
     height: 10rem;
-    background-color: blue;
+    background-color: rgb(234, 241, 243);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 10px;
+    box-shadow: 3px 5px 23px -2px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 3px 5px 23px -2px rgba(255,255,255,0.75);
+    -moz-box-shadow: 3px 5px 23px -2px rgba(255,255,255,0.75);
+}
+
+.card p{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card img{
+    width: 30%;
+    object-fit: cover;
 }
 
 .bloque.segundo{
